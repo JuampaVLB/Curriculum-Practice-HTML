@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #00aae4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    height: 100vh;
+}
+
+.container h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 3.5rem;
+}
+
+/* HEADER */
+
+#header {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: left;   
+    width: 100%;
+    height: 10rem;
+}
+
+#header h1 {
+    font-family:Verdana;
+    font-size: 5rem;
+    margin-left: 1rem;
+    background: -webkit-linear-gradient(#000,#00000090);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    white-space: nowrap;
+}
+
+#header .perfil {
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: cover;
+    width: 140px;
+    height: 140px;
+    
+}
+
+/* SEPARACION */
+
+hr {
+    background-color: white;
+    width: 100%;
+}
+
+
+/* DATOS PERSONALES */
+
+#section-datos h2{
+    margin: 1rem 0 1rem 0;
+}
+
+
+#section-datos .listas {
+    font-family: 'Courier New', Courier, monospace;
+    list-style: none;
+    font-weight: bold;
+}
+
+#section-datos .spacing {
+    margin-top: 0.7rem;
+}
+
+
+#section-datos hr {
+    margin: 1rem 0 1rem 0;
+}
+
+.size {
+    font-size: 2rem;
+}
+
+#section-datos .sub {
+    color: #00000090;
+    list-style:inside;
+    font-size: 1.8rem;
+}
+
+/* FOOTER */
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+}
+
+#footer a {
+    font-family:Arial, Helvetica;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    background: #ffffff36;
+    transition: .5s;
+    font-size: 2rem;
+}
+
+.word {
+    margin-top: 1rem;
+}
+
+#footer a:Hover {
+    color: #000;
+    transition: .5s;
+}
